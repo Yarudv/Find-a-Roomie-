@@ -1,0 +1,43 @@
+body{
+    background-color:#00304E ;
+    height: 100%;
+    margin: 2px;
+    margin-bottom: 0px;
+    color: white;
+}
+footer{
+    height: 12rem;
+    background-color: #F5F5F5;
+    border-color: black;
+    border-style: solid ;
+    border-width: 1px;
+    color: black;
+    font-style: italic;
+    font-size:small;
+}
+.minipie{
+    width: 70%;
+}
+.fijar{
+    min-height: calc(100% - 10rem);
+}
+.patamaño{ 
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.ibotones{
+   position: sticky;
+   top: 30px;
+   text-align: center;
+}
+.bordernav{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
