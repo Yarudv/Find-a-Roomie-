@@ -8,90 +8,95 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script> scr= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Find a Roomie!</title>
     <link rel="stylesheet" href="estiloss.css">
 </head>
 <body>
-    <header>
-        <section class="bordernav">
-        <nav class="navbar navbar-expand-lg navbar-light-color" style="background-color: black;">
-            <a class="navbar-brand" href="./Home.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto"> 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" 
-                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    FR! Tablero
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./Busquedad.html">Busqueda</a>
-                  </div>
-              </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" 
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Nosotros
-                    </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./quienessomos.html">¿Quienes Somos?</a>
-                    <a class="dropdown-item" href="./Ayuda.html">Ayuda</a>
-                  </div>
-                </li>
-                <li class="nav-item navbar-light-color">
-                  <a class="nav-link" href="./loginusuario.html">Inicia sesión</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </section>
-    </header><br>
-    <Section>
-        <form>
-            <label for="nombre">Ingresa tu nombre</label><br>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br>
-            <br>
-            <label for="correo">Ingresa tu correo electrónico</label><br>
-            <input type="email" id="correo" name="correo" placeholder="Escribe tu correo"><br>
-            <br>
-            <label for="numero">Ingresa tu numero de contacto</label><br>
-            <input type="number" id="numero" name="numero" placeholder="Escribe tu numero de contacto"><br>
-            <br>
-            <label for="mensaje">Mensaje</label><br>
-            <textarea name="mensaje" id="mensaje" cols="50" rows="20" placeholder="Dejanos tu mensaje"></textarea><br>
-            <button>Enviar</button>
-        </form>
-    </Section><br>
-    <footer> 
-        <div class="container">
-            <div class="row">
-                <div class="col col-auto">
-                    <div class="minipie">
-                    <p> Find a Roomie! Chile</p>
-                    <p> Es una plataforma orientada a la busqueda inteligente de 
-                     compañeros que quieran arrendar piezas disponibles en sus viviendas
-                    o bien, encontrar un lugar para vivir en compañia de un roomie.  
-                    Sumergete en tu busqueda o publica tu lugar, con Find a Roomie! es más facil.</p>
-                     </div>
-                </div>
-            </div>
-                <div class="row justify-content-center">
-                    <div class="col col-auto"><i class="bi bi-instagram"></i></div>
-                    <div class="col col-auto"><i class="bi bi-facebook"></i></div>
-                    <div class="col col-auto"><i class="bi bi-messenger"></i></div>
-                </div>
-            </div>
+  <header>
+    <section class="bordernav">
+    <nav class="navbar navbar-expand-lg navbar-color" style="background-color: black;">
+        <a class="navbar-brand" href="./Home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" 
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FR! Tablero
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+                <a class="dropdown-item" href="./Busquedad.html">Busqueda</a>
+              </div>
+          </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" 
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nosotros
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+                <a class="dropdown-item" href="./quienessomos.html">¿Quienes Somos?</a>
+                <a class="dropdown-item" href="./Ayuda.html">Ayuda</a>
+              </div>
+            </li>
+            <li class="nav-item navbar-light-color">
+              <a class="nav-link" href="./loginusuario.html">Inicia sesión</a>
+            </li>
+          </ul>
         </div>
-    <h6><center>Santiago de Chile 2022</center></h6>
-    <nav><center>
-        <a href="inicio.html">Inicio</a> |
-        <a href="quienessomos.html">¿Quienes Somos?</a> |
-        <a href="contacto.html">Contacta con nosotros</a>  |
-    </center></nav>
+      </nav>
+    </section>
+</header><br>
+<div>
+  <h2 class="jus"> Mejoremos la comunidad Find a Roomie! Chile</h2><br>
+  <h5 class="jus"> Déjanos tus inquietudes y te responderemos</h5>
+</div><br>
+  <div class="border">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <label for="nombre" class="form-label">Nompre y Apellido</label>
+        <input type="text" class="form-control" id="nombre">
+        <label for="correo" class="form-label">Dirección de correo electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="nombre@ejem.com">
+        <label for="telefono" class="form-label">número de contacto</label>
+        <input type="texto" class="form-control" id="telefono" placeholder="+56 xxxxxxxxx"><br>
+        <label for="mensaje" class="form-label">Déjanos tu mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+      </div>
+    </div>
+  </div><br>
+    <footer> 
+      <div class="container">
+          <div class="row">
+              <div class="col col-auto" class="pt-1">
+                  <div class="minipie">
+                  <p><strong>Find a Roomie! Chile</strong></p>
+                  <p> Es una plataforma orientada a la busqueda inteligente de 
+                   compañeros que quieran arrendar piezas disponibles en sus viviendas
+                  o bien, encontrar un lugar para vivir en compañia de un roomie.  
+                  Sumergete en tu busqueda o publica tu lugar, con Find a Roomie! es más facil.</p>
+                   </div>
+              </div>
+          </div>
+              <div class="row justify-content-center">
+                  <div class="col col-auto"><i class="bi bi-instagram"></i></div>
+                  <div class="col col-auto"><i class="bi bi-facebook"></i></div>
+                  <div class="col col-auto"><i class="bi bi-messenger"></i></div>
+              </div>
+          </div>
+      </div>
+  <h6><center>Santiago de Chile 2022</center></h6>
+  <nav><center>
+      | <a href="Home.html">Home</a> |
+      <a href="Busqueda.html">FR! Tablero</a> |
+      <a href="quienessomos.html">¿Quienes Somos?</a> |
+      <a href="Ayuda.html">Contacta con nosotros</a>  |
+  </center></nav>
 </footer>
 <!-- Bootstrap CSS -->
 <!-- Optional JavaScript -->

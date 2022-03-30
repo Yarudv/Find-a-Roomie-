@@ -22,9 +22,8 @@ footer{
     min-height: calc(100% - 10rem);
 }
 .patamaño{ 
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,4 +39,7 @@ p{
     border-color: black;
     border-width: 1px;
     border-radius: 5px;
+}
+.jus{
+    padding-left: 10%;
 }
