@@ -30,7 +30,6 @@ p{
     text-align: justify;
 }
 .ibotones{
-   position: sticky;
    top: 30px;
    text-align: center;
 }
@@ -49,9 +48,16 @@ p{
    padding-bottom: 30%;
    text-align: center;
    position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(48, 48, 48, 0.5);
+   z-index: 6;
 }
 .ventana{
-    background-color:#F5F5F5 ;
+    padding-top: 5px;
+    background-color: #F5F5F5 ;
     opacity: 1; 
 }
 .lventana{
@@ -77,6 +83,12 @@ p{
     cursor: pointer;
     text-align: center;
 }
-#cerrar:checked + label, #cerrar:checked ~ .modal-container {
+#cerrar:checked + label, #cerrar:checked ~ .modal-container{
     display: none;
+}
+.show{
+    visibility: visible;
+}
+.show1{
+    visibility: hidden;
 }
