@@ -1,8 +1,6 @@
 body{
     background-color:#00304E ;
     height: 100%;
-    margin: 2px;
-    margin-bottom: 0px;
     color: white;
 }
 footer{
@@ -17,9 +15,6 @@ footer{
 }
 .minipie{
     width: 70%;
-}
-.fijar{
-    min-height: calc(100% - 10rem);
 }
 .patamaño{ 
     padding-left: 12%;
@@ -53,7 +48,7 @@ p{
    left: 0;
    right: 0;
    background: rgba(48, 48, 48, 0.5);
-   z-index: 6;
+   z-index: 7;
 }
 .ventana{
     padding-top: 5px;
@@ -91,7 +86,7 @@ p{
 }
 
 /* css para boton aleatorio de fondo de diferentes colores */
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body{
 	margin: 0;
@@ -163,4 +158,21 @@ body{
   .hex:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  } */
+
+  .piebaner{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+  }
+
+  /* Estilos Personalizados a Boostrap */
+
+  .dropdown-item{
+      color:#fff;
+  }
+  .carousel-control-next,
+  .carousel-control-prev{
+      width: 5%;
+      opacity: 0.2;
   }

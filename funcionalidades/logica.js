@@ -7,7 +7,7 @@ $(document).ready(function (){
 });
 
 // js para boton de colores aleatorios de fondo
-function generarNuevoColor(){
+/* function generarNuevoColor(){
 	var simbolos, color;
 	simbolos = "0123456789ABCDEF";
 	color = "#";
@@ -28,4 +28,4 @@ function copiarAlPortapapeles(hexadecimal) {
 	document.execCommand("copy");
 	document.body.removeChild(aux);
 	document.getElementById("text").innerHTML = "Copiado!";
-}
+} */
